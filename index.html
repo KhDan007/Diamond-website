@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="aboutus.html">About us</a></li>
+                <li><a class="menu__item" href="catalog.html">Catalog</a></li>
+                <li><a class="menu__item" href="custom.html">How it's made</a></li>
+        </ul>
+      </div>
+      <img  class="logo" src="img/diamond-low-resolution-logo-white-on-transparent-background 1.png">
+      <a href="form.html"><img onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="acc" src="img/Group 57.png"></a>
+      <a><img id="" onclick="myFunctio()" class="moon" src="img/icons8-moon-64 1.png"></a>
+      </header>
+      <div class="text">
+
+      </div>
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <h1>NEW ACCOUNT</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+      
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn gu">Cancel</button>
+              <button type="submit" class="signupbtn gu">Sign Up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+    <div class="firstp">
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/videoplayback (online-video-cutter.com).mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <main>
+    <div class="secondb">
+        <div><img class="imgop1" src="img/carlos-esteves-1MWbwTaeJIA-unsplash 1.png"></div>
+           <div class="anime"><h3 class="firh">PRODUCED IN ITALY</h3>
+            <p class="firp">Each of our jewels is designed and produced in Italy by experienced craftsmen who have been creating leather pieces that are like a work of art for generations.</p>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          </div> 
+        <div><img class="imgop2" src="img/sabrianna-HyLN-FkhOBc-unsplash 1.png"></div>
+            <div><h3 class="secondh">PRODUCED IN ITALY</h3>
+            <p class="secondp">Each of our jewels is designed and produced in Italy by experienced craftsmen who have been creating leather pieces that are like a work of art for generations.</p></div>
+
+    </div>
+    <div class="thirdb">
+        <h3 class="thirdh">BEST SELLING</h3>
+        <div class="linee"></div>
+        <div class="catalog">
+            <div class="container1">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>DIAMOND</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              <div class="container2">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>Flower Embroidery Hoop Art</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              <div class="container3">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>Flower Embroidery Hoop Art</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              <div class="container4">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>Flower Embroidery Hoop Art</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              <div class="container5">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>Flower Embroidery Hoop Art</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              <div class="container6">
+                <div class="overlay">
+                  <div class = "items"></div>
+                  <div class = "items head">
+                    <p>Flower Embroidery Hoop Art</p>
+                    <hr>
+                  </div>
+                  <div class = "items price">
+                    <p class="old">$699</p>
+                    <p class="new">$345</p>
+                  </div>
+                  <div class="items cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>ADD TO CART</span>
+                </div>
+              </div>
+              </div>
+              </div>
+              
+            </div>
+            <div class="four">
+              <h3 class="fourh" >BRIDAL</h3>
+              <div class="lineee"></div>
+              <div class="fourr">
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')">Rings</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Crowns</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Bride necklace</button>
+              </div>
+              
+              <div id="London" class="tabcontent">
+                <img class="rtr" src="img/sabrianna-2Z6Gr2xpiNk-unsplash 1 (1).png">
+                <img class="rtr" src="img/sabrianna-HyLN-FkhOBc-unsplash 1.png">
+              </div>
+              
+              <div id="Paris" class="tabcontent">
+                <img class="rtr" src="img/amy-leigh-barnard-NKlo7Vl34Bo-unsplash 2.png">
+                <img class="rtr" src="img/cleyton-ewerton-fk8gUzLJ4mo-unsplash 2.png">
+              </div>
+              
+              <div id="Tokyo" class="tabcontent">
+                <img class="rtr" src="img/kateryna-hliznitsova-ceSCZzjTReg-unsplash 1.png">
+                <img class="rtr" src="img/paige-johnson-QMBar9xvhMU-unsplash 1.png">
+              </div>
+                  </div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+ </div>
+ <footer class="footer">
+  <div class="fot">
+  <div class="lim"></div>
+  <div class="lin"></div>
+  <img class="fotimg" src="img/diamond-low-resolution-logo-black-on-transparent-background 1.png">
+  <p class="footp">Subscribe to receive updates, access to exclusive offers</p>
+  <div class="footc"></div>
+  <p class="ho">HOME</p>
+  <p class="ab">ABOUT US</p>
+  <p class="cat">CATALOG</p>
+  <p class="how">HOW IT'S MADE</p>
+  <div class="footic">
+  <img src="img/Group 2 (1).png">
+  <img src="img/Vector.png">
+</div>
+<img class="gro" src="img/Group 156.png">
+ </footer>
+</main>
+
+<script src="./js/main.js"></script>    
+</body>
+</html>

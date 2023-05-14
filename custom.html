@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond | How it's made</title>
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="aboutus.html">About us</a></li>
+                <li><a class="menu__item" href="catalog.html">Catalog</a></li>
+                <li><a class="menu__item" href="custom.html">How it's made</a></li>
+        </ul>
+      </div>
+      <img class="logo" src="img/diamond-low-resolution-logo-black-on-transparent-background 1.png">
+      <img onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="acc" src="img/acc_black.png">
+      <a><img class="moon" onclick="myFunctio()" src="img/dark-mode-icon-black.png"></a>
+      </header>
+      <div class="text">
+
+      </div>
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <h1>NEW ACCOUNT</h1>
+            <p >Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+      
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn gu">Cancel</button>
+              <button type="submit" class="signupbtn gu">Sign Up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="adap">
+          <div class="text">
+            <h2 class="howw">HOW IT'S MADE</h2>
+            <p class="our"  >Our experience, expertise and access to the best Italian materials allow us to create any model for you personally - from design development to the selection of materials and accessories that can be presented in a single copy.</p>
+            <p class="acces">Accessories become a unique and personal accessory that highlights the individuality of the woman who wears them.            </p>
+          </div>
+      <div class="gallery">
+        <img src="img/01.png">
+        <img src="img/2.png">
+        <img src="img/3.png">
+      </div>
+      <div>
+        <p class="all">All our products are made in our factory in Italy, so we can fulfill any request of our customers. Each bespoke bag will be personalized with the client's initials, assigned a unique number and a Certificate.<br><br>
+
+          You can get more detailed information on this service by sending a request to info@scalabag.com</p>
+      </div>
+      <span class="box">
+        <h3 class="ourg">Our goal is to create
+          unique product</h3>
+      </span>
+      <div class="delivery">
+        <h3 class="del">DELIVERY</h3>
+        <div class="deliv">
+          <strong>Free shipping to all regions of KZ</strong> <br>
+          The term is 3-5 business days.<br><br>
+
+          <strong>Deliveries to the CIS countries - 10000 rubles</strong><br>
+          Deadline - specified when placing an order.<br><br>
+
+          <strong>International delivery</strong> <br>
+          To purchase goods with delivery to foreign countries, use the English version of the site (active link, switch to the English version)<br><br>
+
+          If you need to make changes or provide us with additional details, please contact our WhatsApp manager at phone number: +79217882839 or e-mail: info@diamond.com
+          Delivery is formed and transferred to the courier service within 1 business day from the moment the order is placed.
+        </div>
+        </div>
+
+
+        <div class="payment">
+          <h3 class="paym">PAYMENT</h3>
+          <div class="pay">
+            Payment for goods is made online.<br>
+            Payment for delivery (international, CIS countries) is made by the recipient separately, on the website online.<br><br>
+
+            <strong>Payment rules and security of payments, confidentiality of information.</strong> 
+
+          </div>
+
+        </div>
+        <div class="banks">
+          <div class="fir"></div>
+            <img class="kaspi" src="img/1636228682_2-papik-pro-p-kaspi-logotip-foto-2 1.png">
+            <p class="kasp">Payment by bank cards is carried out through 
+              KAspi Kz</p>
+          
+          <div class="sec"></div>
+            <img class="visa" src="img/Group 159.png">
+            <p class="vis">VISA, MasterCard cards are accepted for payment.</p>
+          
+        </div>
+      </div>
+        <footer class="footer">
+          <div class="fot">
+          <div class="lim"></div>
+          <div class="lin"></div>
+          <img class="fotimg" src="img/diamond-low-resolution-logo-black-on-transparent-background 1.png">
+          <p class="footp">Subscribe to receive updates, access to exclusive offers</p>
+          <div class="footc"></div>
+          <p class="ho">HOME</p>
+          <p class="ab">ABOUT US</p>
+          <p class="cat">CATALOG</p>
+          <p class="how">HOW IT'S MADE</p>
+          <div class="footic">
+          <img src="img/Group 2 (1).png">
+          <img src="img/Vector.png">
+        </div>
+        <img class="gro" src="img/Group 156.png">
+         </footer>
+
+      
+          <script src="./custom.js"></script>
+</body>
+</html>
